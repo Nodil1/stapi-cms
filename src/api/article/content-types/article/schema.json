@@ -60,6 +60,19 @@
     },
     "keywords": {
       "type": "text"
+    },
+    "subcategories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::subcategory.subcategory"
+    },
+    "views": {
+      "type": "integer",
+      "default": 0
+    },
+    "likes": {
+      "type": "integer",
+      "default": 0
     }
   }
 }
